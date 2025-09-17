@@ -1,0 +1,10 @@
+# For core functionality
+# No dependencies needed for battery_report.py
+
+# For running tests
+pytest
+
+# For running the optional API
+fastapi
+uvicorn
+pydantic

@@ -1,0 +1,25 @@
+{
+  "vehicle_id": "VIN-TEST-001",
+  "timestamp": "2025-09-17T10:00:00Z",
+  "nominal_capacity_kwh": 75.0,
+  "measured_capacity_kwh": 53.25,
+  "pack_voltage": 350.5,
+  "cell_count": 96,
+  "cells": [
+    {"id": 1, "voltage": 3.65, "temp_c": 28},
+    {"id": 2, "voltage": 3.66, "temp_c": 29},
+    {"id": 3, "voltage": 3.64, "temp_c": 28},
+    {"id": 95, "voltage": 3.75, "temp_c": 32},
+    {"id": 96, "voltage": 3.65, "temp_c": 61}
+  ],
+  "soc_timeseries": [
+    {"ts": "2025-09-16T12:00:00Z", "soc": 95},
+    {"ts": "2025-09-16T14:00:00Z", "soc": 18},
+    {"ts": "2025-09-16T16:00:00Z", "soc": 88},
+    {"ts": "2025-09-17T08:00:00Z", "soc": 25}
+  ],
+  "cycle_history": [
+    {"start_soc": 92, "end_soc": 21, "energy_kwh": 52.5, "duration_h": 4.1},
+    {"start_soc": 88, "end_soc": 19, "energy_kwh": 53.1, "duration_h": 4.0}
+  ]
+}
